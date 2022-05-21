@@ -1,0 +1,61 @@
+.languades {
+    font-family: Montserrat;
+    font-style: normal;
+    color: var(--accent-color);
+
+    @media screen and (min-width: 480px) {
+        margin-top: 45px;
+        margin-left: 63px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-top: 24px;
+        margin-left: 34px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 60px;
+        margin-left: 78px;
+    }
+}
+
+.languades__title {
+    font-weight: bold;
+
+    @media screen and (min-width: 480px) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 24px;
+        line-height: 25px;
+    }
+}
+
+.languades__list {
+    font-weight: 500;
+
+    @media screen and (min-width: 480px) {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-top: 17px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 35px;
+        font-size: 19px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,33 @@
+.aside {
+    background-color: var(--bg-title-text-color);
+
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+        padding-bottom: 45px;
+    }
+
+    @media screen and (min-width: 768px) {
+        min-width: 310px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        min-width: 500px;
+    }
+}
+
+.image {
+    @media screen and (min-width: 480px) {
+        border-bottom: 1px solid var(--accent-color);
+        padding: 50px;
+    }
+
+    @media screen and (min-width: 768px) {
+        border-bottom: 1px solid var(--accent-color);
+        padding: 35px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        border-bottom: 1px solid var(--accent-color);
+        padding: 50px;
+    }
+}
