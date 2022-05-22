@@ -1,5 +1,5 @@
 .summary {
-    
+    font-family: courier new, courier, monospace;
     
 
     @media screen and (max-width: 767.99px) {
@@ -17,7 +17,7 @@
         padding-top: 60px;
         padding-left: 45px;
         padding-right: 45px;
-        padding-bottom: 80px;
+        padding-bottom: 20px;
     }
 }
 
@@ -108,12 +108,11 @@
 }
 
 .mob-summary {
-    font-family: Montserrat;
+    font-family: courier new, courier, monospace;
     font-style: normal;
     background-color: var(--accent-color);
     padding-top: 45px;
     padding-bottom: 45px;
-    border-bottom: 5px solid var(--title-text-color);
 
     @media screen and (min-width: 768px) {
         display: none;
@@ -121,29 +120,30 @@
 }
 
 .mob-summary__name {
-    font-weight: 800;
+    font-weight: 600;
     color: var(--bg-title-text-color);
-    font-size: 55px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 45px;
     text-align: center;
 }
 
 .mob-summary__job {
     font-weight: bold;
     color: var(--title-text-color);
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .mob-summary__title {
     font-weight: bold;
     color: var(--bg-title-text-color);
-    font-size: 20px;
-    line-height: 25px;
-    margin-top: 30px;
-    margin-left: 63px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .mob-summary__text {
@@ -151,7 +151,7 @@
     color: var(--text-color);
     font-size: 15px;
     line-height: 15px;
-    margin-top: 10px;
-    margin-left: 63px;
-    margin-right: 63px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

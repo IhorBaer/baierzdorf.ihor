@@ -11,27 +11,20 @@
     }
 
     @media screen and (min-width: 1200px) {
-        min-width: 500px;
+        min-width: 400px;
     }
 }
 
 .image {
     @media screen and (min-width: 480px) {
-        border-bottom: 1px solid var(--accent-color);
         padding: 50px;
     }
 
     @media screen and (min-width: 768px) {
-        border-bottom: 1px solid var(--accent-color);
         padding: 35px;
     }
 
     @media screen and (min-width: 1200px) {
-        border-bottom: 1px solid var(--accent-color);
-        padding: 50px;
+        padding: 20px;
     }
-}
-
-.img {
-    border-radius: 5px;
 }

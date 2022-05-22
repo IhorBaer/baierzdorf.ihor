@@ -1,11 +1,15 @@
 .languages {
-    font-family: Montserrat;
+    font-family: courier new, courier, monospace;
     font-style: normal;
     color: var(--accent-color);
+    padding: 20px;
+    
 
     @media screen and (min-width: 480px) {
         margin-top: 45px;
         margin-left: 63px;
+        padding: 0;
+        
     }
 
     @media screen and (min-width: 768px) {
@@ -15,7 +19,7 @@
 
     @media screen and (min-width: 1200px) {
         margin-top: 60px;
-        margin-left: 78px;
+        margin-left: 60px;
     }
 }
 
@@ -40,6 +44,7 @@
 
 .languages__list {
     font-weight: 500;
+    margin-top: 10px;
 
     @media screen and (min-width: 480px) {
         margin-top: 10px;
