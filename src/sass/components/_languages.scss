@@ -47,7 +47,14 @@
         font-size: 19px;
         line-height: 25px;
     }
-}
+};
+
+.lang-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+};
 
 .lang-icon-ua {
     margin-left: 76px;
