@@ -48,3 +48,58 @@
         line-height: 25px;
     }
 }
+
+.lang-icon-ua {
+    margin-left: 76px;
+    position: relative;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    animation: heartbeat .75s infinite;
+    
+    @media screen and (min-width: 480px) {
+        margin-left: 72px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        margin-left: 57px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-left: 91px;
+    }
+};
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.25);
+    }
+
+    40% {
+        transform: scale(1.5);
+    }
+};
+
+.lang-icon-en {
+    position: relative;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    animation: heartbeat .75s infinite;
+};
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.25);
+    }
+
+    40% {
+        transform: scale(1.5);
+    }
+}
