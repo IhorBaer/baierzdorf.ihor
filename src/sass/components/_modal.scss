@@ -10,15 +10,15 @@
     flex-direction: column;
     justify-content: space-between;
 
-    padding: 48px 83px 48px 40px;
+    padding: 40px;
 
     background-color: var(--bg-title-text-color);
 
-    font-family: Montserrat;
+    font-family: courier new, courier, monospace;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 20px;
 
     transition: 250ms;
 
@@ -28,18 +28,20 @@
 }
 
 .mobile-menu__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: transparent;
     border: none;
-    color: var(--title-text-color);
 
     position: absolute;
-    right: 55px;
-    top: 10px;
+    right: 40px;
+    top: 40px;
 
     z-index: 15;
 
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: auto;
 
     cursor: pointer;
