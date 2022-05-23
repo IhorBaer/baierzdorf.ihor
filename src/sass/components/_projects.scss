@@ -1,24 +1,13 @@
 .projects {
     font-family: courier new, courier, monospace;
     font-style: normal;
-    padding: 20px;
-  
-
-    @media screen and (min-width: 480px) {
-        padding: 0;
-        margin-top: 45px;
-        margin-left: 63px;
-        margin-right: 63px;
-    }
-
-    @media screen and (min-width: 768px) {
-        margin-top: 50px;
-        margin-left: 17px;
-    }
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     @media screen and (min-width: 1200px) {
-        margin-top: 50px;
-        margin-left: 45px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
@@ -33,7 +22,7 @@
 
     @media screen and (min-width: 768px) {
         font-size: 15px;
-        line-height: 25px;
+        line-height: 15px;
     }
 
     @media screen and (min-width: 1200px) {

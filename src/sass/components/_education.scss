@@ -1,27 +1,17 @@
-   .education {
+    .education {
        font-family: courier new, courier, monospace;
        font-style: normal;
+       padding-top: 20px;
        padding-left: 20px;
        padding-right: 20px;
 
-       @media screen and (min-width: 480px) {
-           padding-top: 40px;
-           padding-bottom: 40px;
-       }
-
-       @media screen and (max-width: 767.99px) {
-           padding-bottom: 40px;
-       }
-
-       @media screen and (min-width: 768px) {
-           padding-top: 30px;
-       }
-
-       @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1200px) {
            padding-top: 40px;
            padding-left: 40px;
-       }
-   }
+           padding-right: 40px;
+
+        }
+    }
 
    .education__title {
        font-weight: bold;

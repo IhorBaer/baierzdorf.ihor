@@ -1,9 +1,9 @@
 .aside {
     background-color: var(--bg-title-text-color);
+    padding-bottom: 20px;
 
     @media screen and (min-width: 480px) {
         max-width: 480px;
-        padding-bottom: 45px;
     }
 
     @media screen and (min-width: 768px) {
@@ -16,12 +16,13 @@
 }
 
 .image {
+    padding: 20px;
     @media screen and (min-width: 480px) {
-        padding: 50px;
+        padding: 30px;
     }
 
     @media screen and (min-width: 768px) {
-        padding: 35px;
+        padding: 30px;
     }
 
     @media screen and (min-width: 1200px) {
