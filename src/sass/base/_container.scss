@@ -1,34 +1,34 @@
-   .container {
-       width: 100%;
-       
+.container {
+  width: 100%;
 
-       @media screen and (min-width: 480px) {
-           max-width: 480px;
-           margin-left: auto;
-           margin-right: auto;
-       }
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-       @media screen and (min-width: 768px) {
-           max-width: 768px;
-           margin-left: auto;
-           margin-right: auto;
-           display: flex;
-       }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
 
-       @media screen and (min-width: 1200px) {
-           max-width: 1200px;
-           margin-left: auto;
-           margin-right: auto;
-           display: flex;
-       }
-   }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-   .section {
-       @media screen and (min-width: 768px) {
-           padding-bottom: 40px;
-       }
+.section {
+  box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
 
-       @media screen and (min-width: 1200px) {
-           padding-bottom: 60px;
-       }
-   }
+  @media screen and (min-width: 768px) {
+    padding-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 60px;
+  }
+}
