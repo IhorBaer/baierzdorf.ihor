@@ -105,5 +105,13 @@
 <path fill="#ab300b" style="fill: var(--color3, #ab300b)" d="M20 13.333c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667z"></path>
 <path fill="#ab300b" style="fill: var(--color3, #ab300b)" d="M22 20c0 0-1.267-2.667-4.667-2.667s-4.667 2.667-4.667 2.667v1.333h9.333v-1.333z"></path>
 </symbol>
+<symbol id="icon-contacts-svg-black" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M19.048 12.952c0 1.683-1.364 3.048-3.048 3.048s-3.048-1.364-3.048-3.048c0-1.683 1.364-3.048 3.048-3.048s3.048 1.364 3.048 3.048z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M5.333 9.905h1.524v-1.524c0-1.683 1.364-3.048 3.048-3.048h12.19c1.683 0 3.048 1.364 3.048 3.048v15.238c0 1.683-1.364 3.048-3.048 3.048h-12.19c-1.683 0-3.048-1.364-3.048-3.048v-1.524h-1.524"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M5.333 16h1.524"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M5.333 12.952h1.524"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M5.333 19.048h1.524"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.5238" d="M20.571 20.571v-1.524c0-1.683-1.364-3.048-3.048-3.048h-3.048c-1.683 0-3.048 1.364-3.048 3.048v1.524c0 0.842 0.682 1.524 1.524 1.524h6.095c0.842 0 1.524-0.682 1.524-1.524z"></path>
+</symbol>
 </defs>
 </svg>
