@@ -23,6 +23,10 @@
   fill: currentColor;
 }
 
+.mobile-menu__title {
+  color: #fff;
+}
+
 .mobile-menu__item {
   margin-bottom: 32px;
 
@@ -38,10 +42,6 @@
   &:hover {
     color: var(--title-text-color);
   }
-}
-
-.menu-is-open {
-  overflow: hidden;
 }
 
 .modal-container {
