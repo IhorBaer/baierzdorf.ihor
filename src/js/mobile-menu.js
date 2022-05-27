@@ -1,18 +1,49 @@
-(() => {
-  function toggleModal() {
-    document.body.classList.toggle('modal-open');
-    refs.modal.classList.toggle('is-hidden');
+const refs = {
+  footerLink: document.querySelector('.mobile-menu__button'),
+  closeModalBtn: document.querySelector('.btn-modal-close'),
+  modal: document.querySelector('.modal'),
+  body: document.querySelector('body'),
+};
+refs.footerLink.addEventListener('click', openModal);
+
+function closeModal(e) {
+  modalAddHidden();
+  refs.closeModalBtn.removeEventListener('click', closeModal);
+  refs.modal.removeEventListener('click', onBackdropClick);
+  refs.body.removeEventListener('keydown', onEscClick);
+  scroll();
+}
+function openModal() {
+  modalRemoveHidden();
+  scroll();
+  refs.modal.addEventListener('click', onBackdropClick);
+  refs.body.addEventListener('keydown', onEscClick);
+  refs.closeModalBtn.addEventListener('click', closeModal);
+}
+function onBackdropClick(e) {
+  if (e.currentTarget !== e.target) {
+    return;
   }
-  const menuBtnRef = document.querySelector('[data-menu-button]');
-  const mobileMenuRef = document.querySelector('[data-menu]');
-  const page = document.querySelector('[data-menu-page]');
-
-  menuBtnRef.addEventListener('click', () => {
-    const expanded = menuBtnRef.getAttribute('aria-expanded') === 'true' || false;
-    menuBtnRef.classList.toggle('is-open');
-    menuBtnRef.setAttribute('aria-expanded', !expanded);
-
-    mobileMenuRef.classList.toggle('is-open');
-    // page.classList.toggle('menu-is-open');
-  });
-})();
+  closeModal();
+}
+function onEscClick(e) {
+  modalIsClose = refs.modal.classList.contains('visually-hidden');
+  if (modalIsClose) {
+    return;
+  }
+  if (e.key === 'Escape') {
+    closeModal();
+  }
+}
+function modalRemoveHidden() {
+  refs.modal.classList.remove('visually-hidden');
+}
+function modalAddHidden() {
+  refs.modal.classList.add('visually-hidden');
+}
+// блокування скрола
+function scroll() {
+  const modalIsClose = refs.modal.classList.contains('visually-hidden');
+  const scrollLockMethod = !modalIsClose ? 'disableBodyScroll' : 'enableBodyScroll';
+  bodyScrollLock[scrollLockMethod](document.body);
+}
