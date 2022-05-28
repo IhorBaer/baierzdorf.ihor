@@ -10,9 +10,6 @@ body.dark-theme {
   color: black;
 }
 
-// .modal-container.light-theme {
-//   background-image: linear-gradient(rgba(190, 190, 194, 0.4), rgba(140, 141, 146, 0.4));
-// }
 .modal-container.dark-theme {
   background-color: #222222;
 }
@@ -24,12 +21,47 @@ body.dark-theme {
 .mob-contact.dark-theme {
   background-color: #222222;
 }
+
 .section.dark-theme {
   background-color: #494848;
 }
+
+.section.dark-theme h1 {
+  color: #dfce82;
+}
+
+.section.dark-theme h3 {
+  color: #fff;
+}
+
+.section.dark-theme p {
+  color: #fff;
+}
+
+.section.dark-theme h2 {
+  color: #dfce82;
+}
+
 .mob-summary.dark-theme {
   background-color: #494848;
 }
+
+.mob-summary.dark-theme h1 {
+  color: #dfce82;
+}
+
+.mob-summary.dark-theme h2 {
+  color: #dfce82;
+}
+
+.mob-summary.dark-theme p {
+  color: #fff;
+}
+
+.mob-summary.dark-theme h3 {
+  color: #fff;
+}
+
 /* THEME SWITCH */
 .theme-switch {
   position: absolute;
