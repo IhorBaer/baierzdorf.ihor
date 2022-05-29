@@ -6,6 +6,7 @@ const aside = document.querySelector('.aside');
 const mob = document.querySelector('.mob-contact');
 const section = document.querySelector('.section');
 const mobSummary = document.querySelector('.mob-summary');
+const close = document.querySelector('.btn-modal-close');
 
 const Theme = {
   LIGHT: 'light-theme',
@@ -25,6 +26,7 @@ function changeTheme(e) {
     mob.classList.add(DARK);
     section.classList.add(DARK);
     mobSummary.classList.add(DARK);
+    close.classList.add(DARK);
 
     body.classList.remove(LIGHT);
     modal.classList.remove(LIGHT);
@@ -32,6 +34,7 @@ function changeTheme(e) {
     mob.classList.remove(LIGHT);
     section.classList.remove(LIGHT);
     mobSummary.classList.remove(LIGHT);
+    close.classList.remove(LIGHT);
 
     localStorage.setItem('theme', DARK);
   } else {
@@ -41,6 +44,7 @@ function changeTheme(e) {
     mob.classList.add(LIGHT);
     section.classList.add(LIGHT);
     mobSummary.classList.add(LIGHT);
+    close.classList.add(LIGHT);
 
     body.classList.remove(DARK);
     modal.classList.remove(DARK);
@@ -48,6 +52,7 @@ function changeTheme(e) {
     mob.classList.remove(DARK);
     section.classList.remove(DARK);
     mobSummary.classList.remove(DARK);
+    close.classList.remove(DARK);
 
     localStorage.setItem('theme', LIGHT);
   }
@@ -65,4 +70,5 @@ aside.classList.add(theme);
 mob.classList.add(theme);
 section.classList.add(theme);
 mobSummary.classList.add(theme);
+close.classList.add(theme);
 checkboxBtn.checked = theme === LIGHT ? false : true;
