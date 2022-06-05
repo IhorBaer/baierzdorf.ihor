@@ -39,11 +39,15 @@ body.dark-theme {
 }
 
 .section.dark-theme p {
-  color: #fff;
+  color: rgb(203, 198, 198);
 }
 
 .section.dark-theme h2 {
   color: #dfce82;
+}
+
+.section.dark-theme li {
+  color: rgb(203, 198, 198);
 }
 
 .mob-summary.dark-theme {
