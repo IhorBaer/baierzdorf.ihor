@@ -9,4 +9,4 @@ const s=document.querySelector("#theme-switch-toggle");console.log(s);const e=do
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/mobile-menu"),require("./js/scroll"),require("./js/switcher");
 },{"./sass/main.scss":"clu1","./js/mobile-menu":"sByI","./js/scroll":"N8YO","./js/switcher":"hql5"}]},{},["Focm"], null)
-//# sourceMappingURL=/baierzdorf__ihor__resume/src.8cb6449e.js.map
+//# sourceMappingURL=/baierzdorf__ihor__resume/src.7ec0dd8a.js.map
