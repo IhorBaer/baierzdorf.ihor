@@ -1,6 +1,7 @@
 .aside {
   background-color: var(--bg-title-text-color);
   padding-bottom: 20px;
+  box-shadow: inset 6px 6px 20px rgb(0 0 0 / 30%);
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
@@ -17,4 +18,5 @@
 
 .image {
   position: relative;
+  box-shadow: 6px 6px 20px rgb(106 104 104 / 30%);
 }

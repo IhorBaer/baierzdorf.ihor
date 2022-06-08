@@ -1,99 +1,100 @@
 .contact {
-    font-family: courier new, courier, monospace;
-    font-style: normal;
+  font-family: courier new, courier, monospace;
+  font-style: normal;
 
-    @media screen and (max-width: 767.99px) {
-        display: none;
-    }
+  @media screen and (max-width: 767.99px) {
+    display: none;
+  }
 
-    @media screen and (min-width: 768px) {
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .contact__title {
-    color: var(--accent-color);
-    font-family: courier new, courier, monospace;
-    font-weight: bold;
+  color: var(--accent-color);
+  font-family: courier new, courier, monospace;
+  font-weight: bold;
 
-    @media screen and (min-width: 480px) {
-        font-size: 20px;
-        line-height: 25px;
-    }
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
 
-    @media screen and (min-width: 768px) {
-        font-size: 15px;
-        line-height: 15px;
-    }
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+    line-height: 15px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        font-size: 24px;
-        line-height: 25px;
-    }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
 }
 
 .contact__list {
-    font-weight: 500;
+  font-weight: 500;
 
-    color: var(--accent-color);
+  color: var(--accent-color);
 
-    @media screen and (min-width: 480px) {
-        font-size: 15px;
-        line-height: 17px;
-    }
+  @media screen and (min-width: 480px) {
+    font-size: 15px;
+    line-height: 17px;
+  }
 
-    @media screen and (min-width: 768px) {
-        margin-top: 17px;
-        font-size: 12px;
-        line-height: 15px;
-    }
+  @media screen and (min-width: 768px) {
+    margin-top: 17px;
+    font-size: 12px;
+    line-height: 15px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        margin-top: 35px;
-        font-size: 19px;
-        line-height: 25px;
-    }
+  @media screen and (min-width: 1200px) {
+    margin-top: 35px;
+    font-size: 19px;
+    line-height: 25px;
+  }
 }
 
 .contact__link {
-    color: var(--accent-color);
-    text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
 .mob-contact {
-    background-color: var(--bg-title-text-color);
-    font-family: courier new, courier, monospace;
-    font-style: normal;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+  background-color: var(--bg-title-text-color);
+  box-shadow: inset 6px 6px 20px rgb(0 0 0 / 20%);
+  font-family: courier new, courier, monospace;
+  font-style: normal;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .mob-contact__title {
-    color: var(--accent-color);
-    font-weight: bold;
+  color: var(--accent-color);
+  font-weight: bold;
 }
 
 .mob-contact__list {
-    font-weight: 500;
-    color: var(--accent-color);
-    font-size: 15px;
-    line-height: 17px;
-    padding-top: 20px;
+  font-weight: 500;
+  color: var(--accent-color);
+  font-size: 15px;
+  line-height: 17px;
+  padding-top: 20px;
 }
 
 .mob-contact__link {
-    color: var(--accent-color);
-    text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
 .mob-contact__item {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }

@@ -20,17 +20,15 @@ body.dark-theme {
 
 .aside.dark-theme {
   background-color: #222222;
-  box-shadow: inset 0 1px 1px #555;
+  box-shadow: 6px 6px 20px rgba(106, 104, 104, 0.3);
 }
-
 .mob-contact.dark-theme {
   background-color: #222222;
-  box-shadow: inset 0 1px 1px #555;
 }
 
 .section.dark-theme {
   background-color: #494848;
-  box-shadow: inset 0 1px 1px #555;
+  box-shadow: 6px 6px 20px rgb(106 104 104 / 30%);
 }
 
 .section.dark-theme h1 {
@@ -55,6 +53,7 @@ body.dark-theme {
 
 .mob-summary.dark-theme {
   background-color: #494848;
+  box-shadow: inset 6px 6px 20px rgb(0 0 0 / 30%);
 }
 
 .mob-summary.dark-theme h1 {
