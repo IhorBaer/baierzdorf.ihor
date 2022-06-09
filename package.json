@@ -1,22 +1,22 @@
 {
-  "name": "baierzdorf__ihor__resume",
+  "name": "baierzdorf.ihor",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://IhorBaer.github.io/baierzdorf__ihor__resume",
+  "homepage": "https://IhorBaer.github.io/baierzdorf.ihor",
   "scripts": {
     "dev": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /baierzdorf__ihor__resume/"
+    "build": "parcel build src/*.html --public-url /baierzdorf.ihor/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IhorBaer/baierzdorf__ihor__resume.git"
+    "url": "git+https://github.com/IhorBaer/baierzdorf.ihor.git"
   },
   "keywords": [],
   "author": "Ihor Baierzdorf <baierzdorf.igor@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IhorBaer/baierzdorf__ihor__resume/issues"
+    "url": "https://github.com/IhorBaer/baierzdorf.ihor/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
