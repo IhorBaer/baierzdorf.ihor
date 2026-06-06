@@ -1,4 +1,5 @@
 export const DEFAULT_LANGUAGE = 'de';
+export const LANGUAGE_STORAGE_VERSION = '2026-06-de-default';
 
 export const languageOptions = [
   { code: 'de', label: 'DE' },

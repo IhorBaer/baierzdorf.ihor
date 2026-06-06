@@ -4,11 +4,19 @@ import { MainSection } from './components/MainSection';
 import { MobileMenu } from './components/MobileMenu';
 import { ScrollTop } from './components/ScrollTop';
 import { DEFAULT_THEME, Theme } from './constants/theme';
-import { DEFAULT_LANGUAGE, resumeContent } from './data/resumeContent';
+import { DEFAULT_LANGUAGE, LANGUAGE_STORAGE_VERSION, resumeContent } from './data/resumeContent';
 
 export default function App() {
   const storedTheme = useMemo(() => localStorage.getItem('theme') || DEFAULT_THEME, []);
-  const storedLanguage = useMemo(() => localStorage.getItem('language') || DEFAULT_LANGUAGE, []);
+  const storedLanguage = useMemo(() => {
+    const savedVersion = localStorage.getItem('language-storage-version');
+
+    if (savedVersion !== LANGUAGE_STORAGE_VERSION) {
+      return DEFAULT_LANGUAGE;
+    }
+
+    return localStorage.getItem('language') || DEFAULT_LANGUAGE;
+  }, []);
   const [theme, setTheme] = useState(storedTheme);
   const [language, setLanguage] = useState(storedLanguage);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,6 +32,7 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem('language', language);
+    localStorage.setItem('language-storage-version', LANGUAGE_STORAGE_VERSION);
     document.documentElement.lang = language;
   }, [language]);
 
