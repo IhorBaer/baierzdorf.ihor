@@ -1,8 +1,8 @@
-export const DEFAULT_LANGUAGE = 'en';
+export const DEFAULT_LANGUAGE = 'de';
 
 export const languageOptions = [
-  { code: 'en', label: 'EN' },
   { code: 'de', label: 'DE' },
+  { code: 'en', label: 'EN' },
 ];
 
 const sharedContacts = [
@@ -53,10 +53,10 @@ export const resumeContent = {
       'Fast learning and responsibility',
     ],
     languages: [
-      { text: 'Ukrainian - native', icon: 'icon-ukraine-flag', className: 'lang-icon-ua' },
+      { text: 'Ukrainian - native' },
       { text: 'Russian - native' },
       { text: 'German - B1 certificate, daily professional use in Germany' },
-      { text: 'English - basic, improving for IT documentation', icon: 'icon-flunited-kingdom-svg-flag', className: 'lang-icon-en' },
+      { text: 'English - basic, improving for IT documentation' },
     ],
     projects: [
       {
@@ -194,10 +194,10 @@ export const resumeContent = {
       'Schnelle Lernbereitschaft und Verantwortung',
     ],
     languages: [
-      { text: 'Ukrainisch - Muttersprache', icon: 'icon-ukraine-flag', className: 'lang-icon-ua' },
+      { text: 'Ukrainisch - Muttersprache' },
       { text: 'Russisch - Muttersprache' },
       { text: 'Deutsch - B1-Zertifikat, tägliche berufliche Anwendung in Deutschland' },
-      { text: 'Englisch - Grundkenntnisse, Ausbau für IT-Dokumentation', icon: 'icon-flunited-kingdom-svg-flag', className: 'lang-icon-en' },
+      { text: 'Englisch - Grundkenntnisse, Ausbau für IT-Dokumentation' },
     ],
     projects: [
       {

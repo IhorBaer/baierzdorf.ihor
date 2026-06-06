@@ -1,5 +1,5 @@
 .contact {
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
   font-style: normal;
 
   @media screen and (max-width: 767.99px) {
@@ -15,7 +15,7 @@
 
 .contact__title {
   color: var(--accent-color);
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
   font-weight: bold;
 
   @media screen and (min-width: 480px) {
@@ -35,7 +35,7 @@
 }
 
 .contact__list {
-  font-weight: 500;
+  font-weight: 400;
 
   color: var(--accent-color);
 
@@ -65,7 +65,7 @@
 .mob-contact {
   background-color: var(--bg-title-text-color);
   box-shadow: inset 6px 6px 20px rgb(0 0 0 / 20%);
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
   font-style: normal;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -83,7 +83,7 @@
 }
 
 .mob-contact__list {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--accent-color);
   font-size: 15px;
   line-height: 17px;

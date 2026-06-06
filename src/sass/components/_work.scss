@@ -1,5 +1,5 @@
 .work {
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
   font-style: normal;
   padding-top: 20px;
   padding-left: 20px;
@@ -57,7 +57,7 @@
 }
 
 .work__text {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--text-color);
   margin-top: 10px;
 
@@ -81,7 +81,7 @@
 }
 
 .work__list {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--text-color);
   margin-top: 10px;
 

@@ -1,4 +1,4 @@
-import photo from '../images/DSC00925.jpg';
+import photo from '../images/profile.jpg';
 import { Contacts } from './Contacts';
 import { Languages } from './Languages';
 import { MobileSummary } from './Summary';

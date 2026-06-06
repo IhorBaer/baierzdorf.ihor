@@ -185,7 +185,7 @@ body.dark-theme {
   border-radius: 999px;
   background-color: transparent;
   color: var(--title-text-color);
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
   font-weight: 700;
   cursor: pointer;
   transition:

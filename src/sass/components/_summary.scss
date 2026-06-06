@@ -1,5 +1,5 @@
 .summary {
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
 
   @media screen and (max-width: 767.99px) {
     display: none;
@@ -23,6 +23,7 @@
 .summary__name {
   text-align: center;
   font-weight: 800;
+  letter-spacing: 0.04em;
   color: var(--bg-title-text-color);
 
   @media screen and (min-width: 480px) {
@@ -44,6 +45,7 @@
 .summary__job {
   text-align: center;
   font-weight: bold;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 
   @media screen and (min-width: 480px) {
@@ -87,7 +89,7 @@
 }
 
 .summary__text {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--text-color);
 
   @media screen and (min-width: 480px) {
@@ -109,7 +111,7 @@
 }
 
 .mob-summary {
-  font-family: courier new, courier, monospace;
+  font-family: var(--font-base);
   font-style: normal;
   background-color: var(--accent-color);
   padding-top: 45px;
@@ -149,10 +151,10 @@
 }
 
 .mob-summary__text {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--text-color);
   font-size: 15px;
-  line-height: 15px;
+  line-height: 1.45;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;

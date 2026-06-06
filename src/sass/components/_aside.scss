@@ -20,3 +20,10 @@
   position: relative;
   box-shadow: 6px 6px 20px rgb(106 104 104 / 30%);
 }
+
+.img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}

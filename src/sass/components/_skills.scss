@@ -1,5 +1,5 @@
 .skills {
-    font-family: courier new, courier, monospace;;
+    font-family: var(--font-base);
     font-style: normal;
     color: var(--accent-color);
     padding-top: 20px;
@@ -42,7 +42,7 @@
 }
 
 .skills__list {
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 10px;
 
     @media screen and (min-width: 480px) {

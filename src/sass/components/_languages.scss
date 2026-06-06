@@ -1,5 +1,5 @@
 .languages {
-    font-family: courier new, courier, monospace;
+    font-family: var(--font-base);
     font-style: normal;
     color: var(--accent-color);
     padding-top: 20px;
@@ -27,7 +27,7 @@
 }
 
 .languages__list {
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 10px;
 
     @media screen and (min-width: 480px) {
@@ -57,47 +57,3 @@
 .lang-li + .lang-li {
     margin-top: 4px;
 };
-
-.lang-icon-ua,
-.lang-icon-en {
-    margin-left: 8px;
-    vertical-align: middle;
-};
-
-.lang-icon-ua {
-    height: 20px;
-    width: 20px;
-    animation: heartbeat .75s infinite;
-};
-@keyframes heartbeat {
-    0% {
-        transform: scale(1);
-    }
-
-    20% {
-        transform: scale(1.25);
-    }
-
-    40% {
-        transform: scale(1.5);
-    }
-};
-
-.lang-icon-en {
-    height: 20px;
-    width: 20px;
-    animation: heartbeat .75s infinite;
-};
-@keyframes heartbeat {
-    0% {
-        transform: scale(1);
-    }
-
-    20% {
-        transform: scale(1.25);
-    }
-
-    40% {
-        transform: scale(1.5);
-    }
-}
