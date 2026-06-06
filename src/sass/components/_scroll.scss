@@ -10,6 +10,9 @@
   visibility: hidden;
   text-decoration: none;
   cursor: pointer;
+  padding: 0;
+  border: 0;
+  background: transparent;
 
   &.scroll--isShown {
     opacity: 0.8;

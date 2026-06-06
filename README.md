@@ -1,97 +1,58 @@
-# Ihor Baierzdorf Portfolio
+# Ihor Baierzdorf Resume
+
+Bilingual personal resume website built with React, Vite and SCSS.
+
+Live site: https://ihorbaer.github.io/baierzdorf.ihor/
 
 ## English
 
-Personal portfolio/CV website built as an individual learning project.
+This project presents my current IT-entry profile for Application Support, Web Support and Junior QA roles in Germany.
 
-- Live demo: https://ihorbaer.github.io/baierzdorf.ihor/
-- Repository: https://github.com/IhorBaer/baierzdorf.ihor
+The content is intentionally honest and focused on a realistic transition into qualified IT work:
 
-### About
-
-This project was created during my frontend learning path. It presents personal information,
-selected projects, education, work experience and contact details.
-
-### Features
-
-- Personal CV-style layout
-- Project links
-- Responsive layout
-- Theme switcher
-- Mobile menu
-- Scroll behavior
-- GitHub Pages deployment
-
-### Tech Stack
-
-- HTML
-- SCSS
-- JavaScript
-- Parcel
-- GitHub Pages
-
-### Run Locally
-
-```bash
-npm ci
-npm run dev
-```
-
-### Build
-
-```bash
-npm run build
-```
-
-### Status
-
-This is an older individual learning project. The website content should be updated before using it
-as a main portfolio link in applications.
+- ZAB-recognized Ukrainian higher education degree assessed at Master level in combination with previous study
+- HTML, CSS, SCSS, JavaScript and React learning projects
+- Team Lead role in two GoIT group projects
+- Current refresh of frontend and support-oriented technical skills
+- German and English resume content in one React app
 
 ## Deutsch
 
-Persönliche Portfolio-/Lebenslauf-Webseite, erstellt als individuelles Lernprojekt.
+Diese Website zeigt mein aktuelles IT-Einstiegsprofil für Application Support, Web Support und Junior-QA-Rollen in Deutschland.
 
-- Live-Demo: https://ihorbaer.github.io/baierzdorf.ihor/
-- Repository: https://github.com/IhorBaer/baierzdorf.ihor
+Der Inhalt ist bewusst realistisch und auf den Einstieg in qualifizierte IT-Arbeit ausgerichtet:
 
-### Über Das Projekt
+- ZAB-bewerteter ukrainischer Hochschulabschluss auf Master-Ebene in Verbindung mit dem vorherigen Studium
+- HTML-, CSS-, SCSS-, JavaScript- und React-Lernprojekte
+- Team-Lead-Rolle in zwei GoIT-Gruppenprojekten
+- Aktuelle Auffrischung von Frontend- und supportnahen technischen Kenntnissen
+- Deutscher und englischer Lebenslauf in einer React-App
 
-Dieses Projekt entstand während meines Frontend-Lernwegs. Es zeigt persönliche Informationen,
-ausgewählte Projekte, Ausbildung, Berufserfahrung und Kontaktdaten.
+## Tech Stack
 
-### Funktionen
-
-- Lebenslaufähnliches persönliches Layout
-- Projektlinks
-- Responsives Layout
-- Theme-Umschalter
-- Mobiles Menü
-- Scroll-Verhalten
-- Deployment über GitHub Pages
-
-### Tech Stack
-
-- HTML
+- React
+- Vite
 - SCSS
-- JavaScript
-- Parcel
 - GitHub Pages
+- GitHub Actions
 
-### Lokal Starten
+## Project Structure
+
+```text
+src/
+  components/       React UI sections
+  constants/        Theme constants
+  data/             English and German resume content
+  images/           Profile image and SVG sprite
+  sass/             SCSS styles
+```
+
+## Scripts
 
 ```bash
-npm ci
 npm run dev
-```
-
-### Build
-
-```bash
 npm run build
+npm run preview
 ```
 
-### Status
-
-Dies ist ein älteres individuelles Lernprojekt. Der Inhalt der Webseite sollte aktualisiert werden,
-bevor sie als Haupt-Portfolio-Link in Bewerbungen verwendet wird.
+The production build uses the `/baierzdorf.ihor/` base path for GitHub Pages.

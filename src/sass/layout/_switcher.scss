@@ -102,9 +102,10 @@ body.dark-theme {
   margin: 0;
   padding: 0;
   opacity: 0;
-  height: 0;
-  width: 0;
-  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  cursor: pointer;
 }
 
 .theme-switch__track {
@@ -167,4 +168,35 @@ body.dark-theme {
 
 .theme-switch__toggle:checked ~ .theme-switch__marker {
   transform: translateX(5px);
+}
+
+/* LANGUAGE SWITCH */
+.language-switch {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.language-switch__button {
+  min-width: 42px;
+  padding: 4px 8px;
+  border: 1px solid var(--title-text-color);
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--title-text-color);
+  font-family: courier new, courier, monospace;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background-color 250ms,
+    color 250ms,
+    border-color 250ms;
+}
+
+.language-switch__button--active,
+.language-switch__button:hover,
+.language-switch__button:focus {
+  background-color: var(--title-text-color);
+  color: #ffffff;
 }
