@@ -34,6 +34,13 @@ export const resumeContent = {
       title: 'PROFILE',
       text:
         'IT-entry candidate based in Germany with a ZAB-recognized Ukrainian higher education degree in computerized systems, automation and control, assessed at Master level in combination with previous study. I am refreshing my web development skills and looking for a realistic qualified IT-entry role in Application Support, IT/User Support, Junior QA or Web Support.',
+      downloads: {
+        title: 'Download resume',
+        files: [
+          { label: 'German PDF', href: 'cv/Ihor_Baierzdorf_Lebenslauf_DE.pdf' },
+          { label: 'English PDF', href: 'cv/Ihor_Baierzdorf_CV_EN.pdf' },
+        ],
+      },
     },
     contacts: sharedContacts,
     techSkills: [
@@ -175,6 +182,13 @@ export const resumeContent = {
       title: 'PROFIL',
       text:
         'IT-Einstiegskandidat in Deutschland mit ZAB-bewertetem ukrainischem Hochschulabschluss im Bereich computergestützte Systeme, Automatik und Steuerung. Der Abschluss entspricht in Verbindung mit dem vorherigen Studium einem deutschen Hochschulabschluss auf Master-Ebene. Aktuell frische ich meine Kenntnisse in Webentwicklung gezielt auf und suche einen realistischen qualifizierten Einstieg in Application Support, IT/User Support, Junior QA oder Web Support.',
+      downloads: {
+        title: 'Lebenslauf herunterladen',
+        files: [
+          { label: 'Deutsch PDF', href: 'cv/Ihor_Baierzdorf_Lebenslauf_DE.pdf' },
+          { label: 'Englisch PDF', href: 'cv/Ihor_Baierzdorf_CV_EN.pdf' },
+        ],
+      },
     },
     contacts: sharedContacts,
     techSkills: [

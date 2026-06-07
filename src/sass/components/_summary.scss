@@ -110,6 +110,88 @@
   }
 }
 
+.resume-downloads {
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 18px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 24px;
+  }
+}
+
+.resume-downloads__title {
+  margin: 0;
+  font-weight: 700;
+  color: var(--bg-title-text-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 480px) {
+    font-size: 11px;
+    line-height: 1.25;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 13px;
+  }
+}
+
+.resume-downloads__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.resume-downloads__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 5px 12px;
+  border: 1px solid var(--bg-title-text-color);
+  border-radius: 999px;
+  color: var(--title-text-color);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease,
+    border-color 200ms ease;
+}
+
+.resume-downloads__link:hover,
+.resume-downloads__link:focus {
+  background-color: var(--bg-title-text-color);
+  color: var(--accent-color);
+  outline: none;
+}
+
+.section.dark-theme .resume-downloads__title,
+.mob-summary.dark-theme .resume-downloads__title {
+  color: #dfce82;
+}
+
+.section.dark-theme .resume-downloads__link,
+.mob-summary.dark-theme .resume-downloads__link {
+  border-color: #dfce82;
+  color: #fff;
+}
+
+.section.dark-theme .resume-downloads__link:hover,
+.section.dark-theme .resume-downloads__link:focus,
+.mob-summary.dark-theme .resume-downloads__link:hover,
+.mob-summary.dark-theme .resume-downloads__link:focus {
+  background-color: #dfce82;
+  color: #222222;
+}
+
 .mob-summary {
   font-family: var(--font-base);
   font-style: normal;
@@ -121,6 +203,12 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+
+.mob-summary .resume-downloads {
+  margin-top: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mob-summary__name {
